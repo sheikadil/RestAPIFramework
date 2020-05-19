@@ -12,6 +12,7 @@ public class CreatCustomerAPI extends com.anaaz.api.setup.BaseTest{
 
 	public static Response sendPostRequestToCreateCustomeAPIWithValidAuthKey(HashMap<String,String> data) {
 
+		//Sample Comment
 		Response response = given().auth().basic(config.getProperty("validSecretKey"), "")
 		.formParam("name", data.get("Name"))		
 		.formParam("email",  data.get("Email"))
