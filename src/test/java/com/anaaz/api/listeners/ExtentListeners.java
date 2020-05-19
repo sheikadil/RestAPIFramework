@@ -112,7 +112,7 @@ public class ExtentListeners implements ITestListener, ISuiteListener {
 
 
 		try {
-			 messageBody = "http://"+InetAddress.getLocalHost().getHostAddress()+":8080/job/APITestingFramework/Extent_20Reports/";
+			 messageBody = "http://"+InetAddress.getLocalHost().getHostAddress()+":8080/job/RestAPIFramework/Extent_20Reports/"+fileName;
 		} catch (UnknownHostException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
