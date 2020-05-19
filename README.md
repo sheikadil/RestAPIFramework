@@ -3,6 +3,7 @@
 This is REST API Framework using RestAssured Library,Java,Maven,TestNG and Jackson library to test Stripe REST API.
 
 Project Natures
+
 Maven 
 Apache Maven is a software project management and comprehension tool. Based on the concept of a project object model (POM), Maven can manage a project's build, reporting and documentation from a central piece of information. https://maven.apache.org/
 
